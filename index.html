@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            font-family: Inter;
+        }
+
+        .hed {
+
+            font-size: 20px;
+            font-weight: 500;
+            line-height: 55.67px;
+            text-align: left;
+            text-align: center;
+        }
+
+        .inp {
+            width: 633px;
+            height: 685px;
+            top: 199px;
+            left: 543px;
+            gap: 0px;
+            opacity: 0px;
+            margin: 0 auto;
+
+        }
+
+        .a {
+            width: 301px;
+            height: 52px;
+            top: 199px;
+            left: 543px;
+            gap: 0px;
+            opacity: 0px;
+            margin: 6px;
+            padding: 20px 12px 20px 12px;
+            border-radius: 5px;
+            border: 2px solid;
+        }
+
+        .p {
+            width: 39px;
+            height: 17px;
+            gap: 0px;
+            opacity: 0px;
+            margin: 3px;
+            padding-left: 2px;
+        }
+
+        .color {
+            border-color: blueviolet;
+        }
+
+        .btn {
+            padding-top: 10px;
+            text-align: center;
+        }
+
+        .bt {
+            width: 300px;
+            height: 50px;
+            background-color: blue;
+            color: white;
+
+        }
+    </style>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merienda:wght@300..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="hed">
+            <h1>Example form</h1>
+            <p> All: 12 Need: 7S uccess: 7/7 Error: 4/7</p>
+        </div>
+
+        <div class="inp">
+
+            <input type="text" placeholder="name" class='a color'>
+            <input type="text" placeholder="Age" class='a color'>
+            <input type="text" placeholder="Surname" class='a'>
+            <input type="text" placeholder="About You" class='a color'>
+            <input type="text" placeholder="Email adress" class='a color'>
+            <input type="text" placeholder="What is JavaScript?" class='a color'>
+            <input type="text" placeholder="Phone number" class='a'>
+            <input type="text" placeholder="What is HTML?" class='a color'>
+            <input type="text" placeholder="Your Mom’s name" class='a '>
+            <input type="text" placeholder="What is CSS?" class='a color'>
+            <input type="text" placeholder="Your Pap’s name" class='a'>
+            <input type="text" placeholder="Your favourite car" class='a'>
+
+            <div class="btn">
+                <button class="bt" onclick="validateForm()">Save changes</button>
+            </div>
+
+
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
